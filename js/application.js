@@ -1,19 +1,35 @@
 (function($) {
     $(document).ready(function() {
 
-        $('span#typed').typed({
-            strings: ["the milen", "the millenia", "the millennialist."],
-            typeSpeed: 50,
-            loop: true,
+        // BELOW IS THE JQUERY PLUGIN FOR AUTO TYPING
+        $('span.typed').typed({
+            // strings can be separated by commas inside the [] and must be inside ""
+            strings: ["jQuery Webpage!"],
+            // higher number means slower!
+            typeSpeed: 100,
+            // false means it goes once, true means it loops forever!
+            loop: false, 
             backSpeed: 20,
+            // higher number means longer start delay
             startDelay: 500
         });
 
-        // $(".scroll").click(function(event){     
-        //     event.preventDefault();
-        //     $('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
-        // });
 
+
+        // BELOW IS THE jQUERY PLUGIN FOR AUTO SCROLLING
+        $('.scroll').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+            if (target.length) {
+                $('html,body').animate({
+                    scrollTop: target.offset().top
+                }, 1000); // The higher the number, the slower the scroll
+                return false;
+                }
+            }
+        });
     });
 
 })(jQuery)
+

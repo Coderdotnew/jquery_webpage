@@ -10,7 +10,7 @@ html, body {
 
 /* HOMEPAGE */
 .homepage {
-    background: url("/images/concrete.jpg") no-repeat center center fixed;
+    background: url("images/beach1.jpg") no-repeat center center fixed;
     height: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -101,5 +101,37 @@ button:hover {
     background-size: cover;
 }
 
+
+
+
+/* SPECIAL CSS BELOW */
+
+/* BBLINKING CURSOR FOR TYPED.JS, uncomment code below to work */
+/*.typed-cursor {
+    opacity: 1;
+    font-weight: bold;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-webkit-keyframes blink {
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-moz-keyframes blink {
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}*/
+/* END BLINKING CURSOR */
 
 
