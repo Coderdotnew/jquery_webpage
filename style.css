@@ -1,0 +1,105 @@
+/* @import is used to import Google fonts, you can find a different font at https://fonts.google.com/ */
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:400,200,300,700,500);
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* HOMEPAGE */
+.homepage {
+    background: url("/images/concrete.jpg") no-repeat center center fixed;
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.name-header {
+    color: white;
+    text-align: center;
+    padding-top: 17%;
+    font-size: 3.5vmax;
+}
+
+.home-h1 {
+    margin: 0;
+}
+
+.home-tagline {
+    text-align: center;
+    color: white;
+    font-size: 2vmax;
+}
+
+.home-button {
+    text-align: center;
+    padding-top: 2%;
+}
+
+button {
+    background: transparent;
+    font-family: 'Work Sans', sans-serif;
+    border: 1px solid white;
+    color: white;
+    height: 5vmax;
+    width: 20vmax;
+    font-size: 1.5vmax;
+    letter-spacing: 1px;
+    outline: none;
+}
+
+button:hover {
+    font-weight: 700;
+    border: 5px solid white;
+}
+
+/* PAGE 2 */
+.page2 {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background:white;
+    text-align:center;
+}
+.pic-table {
+    margin: 0;
+    padding-top:5%;
+}
+.pic {
+    height: 25vmax;
+    width: 25vmax;
+    display:inline-block;
+    margin: 1%;
+}
+
+#p1 {
+    background: #D3D3D3;
+    background-size: cover;
+}
+#p2 {
+    background: #D3D3D3;
+    background-size: cover;
+}
+#p3 {
+    background: #D3D3D3;
+    background-size: cover;
+}
+#p4 {
+    background: #D3D3D3;
+    background-size: cover;
+}
+#p5 {
+    background: #D3D3D3;
+    background-size: cover;
+}
+#p6 {
+    background: #D3D3D3;
+    background-size: cover;
+}
+
+
+
